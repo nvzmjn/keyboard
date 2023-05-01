@@ -1,0 +1,76 @@
+.active {
+    background: rgb(96, 207, 105);
+}
+
+.text {
+    display: flex;
+    margin: 0 auto;
+}
+
+.key {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    justify-content: center;
+}
+
+.keyboard {
+    font-family: "Trebuchet MS", "Helvetica", sans-serif;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    '. . . . . . . . . . . . . bs bs'
+    '. . . . . . . . . . . . . . .'
+    'caps caps . . . . . . . . . . . enter enter'
+    'shiftL shiftL . . . . . . . . . . arrowU shiftR shiftR'
+    '. . . space space space space space space space . . . . .' 
+    ;
+    justify-content: center;
+  
+}
+
+.F12 {
+    grid-area: f12;
+}
+
+.CapsLock {
+    grid-area: caps;
+    width: 114px;
+}
+
+.Enter {
+    grid-area: enter;
+    width: 115px;
+}
+
+.ShiftLeft {
+grid-area: shiftL;
+width: 114px;
+}
+
+.ShiftRight {
+    grid-area: shiftR;
+    width: 115px;
+    }
+
+.ArrowUp {
+    grid-area: arrowU;
+}
+
+.Space {
+    grid-area: space;
+    width: 434px;
+}
+
+.Backspace {
+    grid-area: bs;
+    width: 115px;
+}
+
+/* .Tab {
+    width: 75px;
+} */
