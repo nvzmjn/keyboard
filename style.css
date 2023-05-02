@@ -1,5 +1,6 @@
 .active {
     background: rgb(96, 207, 105);
+    transition: 0.4s ease all;
 }
 
 .text {
@@ -71,6 +72,3 @@ width: 114px;
     width: 115px;
 }
 
-/* .Tab {
-    width: 75px;
-} */
